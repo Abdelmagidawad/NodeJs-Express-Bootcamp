@@ -1,0 +1,20 @@
+{
+  "name": "express-advance-part2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^5.1.0"
+  }
+}
