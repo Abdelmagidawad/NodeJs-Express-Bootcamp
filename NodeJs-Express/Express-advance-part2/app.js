@@ -11,7 +11,13 @@ import notFound from "./middleware/notFound.js";
 //
 import { fileURLToPath } from "url";
 //
+import dotenv from "dotenv";
+dotenv.config();
+
 const app = express();
+
+const port = process.env.PORT;
+const nodeEnv = process.env.NODE_ENV;
 
 // Body Parser middleware
 app.use(express.json());
@@ -62,6 +68,6 @@ app.use("/api/posts", posts);
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(8000, () => {
-  console.log("Server Listening on Port 8000!");
+app.listen(port, () => {
+  console.log(`Server Listening ${nodeEnv} on Port ${port}!`);
 });
