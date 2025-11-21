@@ -1,0 +1,13 @@
+{
+  "name": "ex1-basic-router-structure",
+  "version": "1.0.0",
+  "main": "Exercise-1.js",
+  "scripts": {
+    "dev": "nodemon Exercise-1.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

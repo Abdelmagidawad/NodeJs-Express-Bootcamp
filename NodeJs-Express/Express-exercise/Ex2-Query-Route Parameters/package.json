@@ -1,0 +1,14 @@
+{
+  "name": "ex2-query-route-parameters",
+  "version": "1.0.0",
+  "main": "Exercise-2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon Exercise-2.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
