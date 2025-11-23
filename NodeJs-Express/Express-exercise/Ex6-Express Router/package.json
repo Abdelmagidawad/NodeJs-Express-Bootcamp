@@ -1,0 +1,14 @@
+{
+  "name": "ex6-express-router",
+  "version": "1.0.0",
+  "main": "Exercise-6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon Exercise-6.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

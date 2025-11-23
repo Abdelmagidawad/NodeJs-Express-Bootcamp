@@ -1,0 +1,8 @@
+// Data
+
+let products = [
+  { id: 1, name: "Laptop", price: 1200, category: "Electronics" },
+  { id: 2, name: "Headphones", price: 150, category: "Electronics" },
+];
+
+export default products;
