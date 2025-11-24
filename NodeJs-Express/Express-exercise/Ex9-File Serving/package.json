@@ -1,0 +1,14 @@
+{
+  "name": "ex9-file-serving",
+  "version": "1.0.0",
+  "main": "Exercise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon Exercise-9.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
